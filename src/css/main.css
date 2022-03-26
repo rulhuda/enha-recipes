@@ -1,0 +1,102 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.card-image{
+  max-height: 190px;
+  overflow: hidden;
+}
+
+.card-action{
+  height: 100px;
+  overflow-y: auto;
+}
+
+.card-icon{
+  min-width: 250px;
+  max-width: 350px;
+}
+
+.card-action::-webkit-scrollbar{
+  width: 8px;
+}
+
+.card-action::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.popup-modal{
+  width: 90%;
+  height: 85%;
+  overflow-y:auto;
+  background-color: orange;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 99;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+}
+
+.popup-modal i#close{
+  color: red;
+  font-size: 3rem;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.popup-modal::-webkit-scrollbar{
+  width: 8px;
+}
+
+.popup-modal::-webkit-scrollbar-thumb{
+  background-color: teal;
+  border-radius: 10px;
+}
+.show{
+  display: block;
+}
+.title{
+  padding: 0.5em 1rem;
+  font-size: 2.4em;
+  margin-top: -2rem;
+}
+.sub-title{
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 0.5em 1rem;
+  margin-top: -1rem;
+}
+
+.instruction{
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 0.5em 1rem;
+  margin-top: -1rem;
+}
+
+.text-desc{
+  font-size: 1em;
+  padding: 0.5em 1rem;
+  margin-top: -1.4rem;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width:640px){
+  .card-icon{
+    min-width: 250px;
+    max-width: 300px;
+  }
+}
