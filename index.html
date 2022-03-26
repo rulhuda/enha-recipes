@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family:arial;
+        }
+        h1, h2, p{
+            text-align: center;
+        }
+
+        h1{
+            background-color: #ddd;
+            padding: 1em 2em;
+            color: #333;
+        }
+
+        p{
+            font-size: 1.2em;
+        }
+
+        .btn{
+            padding: 0.5em 1.5em;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>This page just for redirecting you to folder dist (Output from webpack)</h1>
+    <br>
+    <p>Click button below to see folder dist</p>
+    <br>
+    <h2><a href="./dist/" class="btn"> Click Me </a></h2>
+</body>
+</html>
